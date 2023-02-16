@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  *main - Entry
- *Return 0 (success)
+ *Return: 0 (success)
 */
 int main(void)
 {
@@ -11,8 +11,9 @@ int main(void)
 	long long int d;
 	float f;
 	
-	print("Size of a char: %lu byte(s)\n", (unsigned long)sizeof(a));
-	print("Size of a int: %lu byte(s)\n", (unsigned long)sizeof(b));
-	print("Size of a long int: %lu byte(s)\n", (unsigned long)sizeof(c));
-	print("Size of a long long int: %lu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a char: %zu byte(s)\n", (unsigned long)sizeof(a));
+	printf("Size of a int: %zu byte(s)\n", (unsigned long)sizeof(b));
+	printf("Size of a long int: %zu byte(s)\n", (unsigned long)sizeof(c));
+	printf("Size of a long long int: %zu byte(s)\n", (unsigned long)sizeof(d));
+	printf("Size of a float: %zu byte(s)\n", (unsigned float)sizeof(f));
 }
