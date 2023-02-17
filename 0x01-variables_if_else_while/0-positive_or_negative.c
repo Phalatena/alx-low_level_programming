@@ -2,13 +2,13 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point positive anything is better than negative anything
+ *main - Entry point posetive anything is better than nagetive
  *Return: 0 (success)
 */
 int main(void)
 {
 	int n;
-	
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
