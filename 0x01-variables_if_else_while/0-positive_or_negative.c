@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /**
- *main - Entry point posetive anything is better than nagetive
+ *main - Entry point positive anything is better than nagetive
  *Return: 0 (success)
 */
 int main(void)
@@ -19,7 +19,7 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	else (n == 0)
+	else
 	{
 		printf("%d is zero\n", n);
 	}
