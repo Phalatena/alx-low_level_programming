@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *largest_number - print the largest of tree numbers
+ *main - print the largest of tree numbers
  *@a: first integer
  *@b: second integer
  *@c: third integer
