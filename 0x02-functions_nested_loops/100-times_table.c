@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- *print_times_table - function that print n times table starting with 0.
+ *times_table - function that print n times table starting with 0.
  *@n: The number to be checked
  *Return: Always 0
 */
