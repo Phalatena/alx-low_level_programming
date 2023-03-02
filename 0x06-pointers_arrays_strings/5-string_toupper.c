@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
  *string_toupper - change all lowercase to uppercase
  *@n: pointer
