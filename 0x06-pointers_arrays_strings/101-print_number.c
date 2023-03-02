@@ -1,10 +1,9 @@
 #include "main.h"
 /**
- *print_number - function that print an integer
+ *print - function that print an integer
  *@n: integer params
  *Return: 0
  */
-void print_number(int n)
 void print_number(int n)
 {
 	unsigned int n1;
