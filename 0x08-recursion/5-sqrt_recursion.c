@@ -2,8 +2,8 @@
 #include <stdio.h>
 /**
  *_sqrt_recursion - funtion that return the natural square root of a number
- *@n: natural square root
- *Return: natural square root
+ *@n:square root
+ *Return:natural square root
  */
 int _sqrt_recursion(int n)
 {
@@ -11,11 +11,12 @@ int _sqrt_recursion(int n)
 		return (-1);
 	return (n, 0);
 }
+
 /**
  *actual_sqrt_recursion - recurses to find the natural
- *@n: number to calculate the sqaure root
- *@i: iterator
- *Return: the resulting square root
+ *@n:number to calculate the sqaure root
+ *@i:iterator
+ *Return:resulting square root
  */
 int actual_sqrt_recursion(int n, int i)
 {
